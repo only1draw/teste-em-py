@@ -1,44 +1,35 @@
-# teste-em-py
-Este projeto é uma calculadora de consumo de energia elétrica ⚡, desenvolvida com o objetivo de ajudar o usuário a entender quanto um aparelho consome e estimar o custo na conta de luz 💡.
-🎯 Objetivo
-
-Permitir que o usuário:
-
-Calcule o consumo de energia de aparelhos
-Estime o gasto em reais 💰
-Tenha mais controle sobre o uso de energia
-🐍 Linguagem utilizada
-
-O sistema foi desenvolvido utilizando:
-
-Python 3.x
-🧮 Fórmula utilizada
-
-A fórmula para calcular o consumo de energia é:
-
-Consumo (kWh)
-=
-Pot
-e
-ˆ
-ncia (W)
-×
-Tempo (h)
-1000
-Consumo (kWh)=
-1000
-Pot
-e
-ˆ
-ncia (W)×Tempo (h)
-	​
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
 
 
-E o custo é:
+<h1>⚡ Calculadora de Energia</h1>
 
-Custo
-=
-Consumo (kWh)
-×
-Tarifa
-Custo=Consumo (kWh)×Tarifa
+<div class="badges">
+<img src="https://img.shields.io/badge/Python-3.x-blue?logo=python">
+<img src="https://img.shields.io/badge/GitHub-black?logo=github">
+<img src="https://img.shields.io/badge/Energia-green">
+</div>
+
+<div class="section">
+<h2>📌 Sobre</h2>
+<p>Sistema simples em <b>Python 🐍</b> para calcular consumo de energia e custo da conta 💡💰.</p>
+</div>
+
+<div class="section">
+<h2>🎯 Objetivo</h2>
+<p>• Calcular consumo (kWh)<br>
+• Estimar valor da conta</p>
+</div>
+
+<div class="section">
+<h2>🧮 Fórmula</h2>
+<p>
+Consumo ⚡ = (Potência × Tempo) / 1000 <br>
+Custo 💰 = Consumo × Tarifa
+</p>
+</div>
+
+</body>
+</html>
